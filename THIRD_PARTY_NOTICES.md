@@ -1,0 +1,30 @@
+# Third-Party Notices / 第三方元件授權聲明
+
+This software is distributed as a closed-source freeware executable and includes the third-party components below. They are licensed under their own terms, which are reproduced here . The proprietary freeware [LICENSE](LICENSE) of this project does not apply to them.
+
+本軟體為閉源免費執行檔，內含下列第三方元件。各元件依其原授權條款提供，授權全文見各元件官方發布頁面。本專案之 [LICENSE](LICENSE) 專有免費軟體授權不適用於這些元件。
+
+---
+
+## 1. Slint (GUI toolkit)
+
+- Project / 專案：https://slint.dev
+- License elected / 採用授權：**Slint Royalty-free Desktop, Mobile, and Web Applications License 2.0**
+  (Slint is offered under GPL-3.0 / Royalty-free / Commercial; this software uses the Royalty-free option. / Slint 提供 GPLv3、免費授權、商業授權三選一，本軟體採用免費授權。)
+- Use / 使用方式：This is a desktop application for general-purpose Windows PCs. It is not an embedded system and does not expose Slint APIs. The Slint toolkit is only distributed as part of this application. / 本軟體為一般 Windows 電腦上的桌面應用程式，非嵌入式系統，亦不對外暴露 Slint API，Slint 僅隨本應用程式一併散布。
+- Modifications / 修改：A locally patched copy of some `i-slint-*` crates is used; original license notices are kept unchanged. / 部分 `i-slint-*` 套件使用本地修補版，原始授權聲明均未更動。
+- Attribution (required by Section 2 of the license) / 授權要求之標示：
+
+<a href="https://slint.dev"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.png">
+  <img src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.png" alt="Made with Slint" width="180">
+</picture></a>
+
+Full license text: see https://slint.dev/terms-and-conditions.
+
+---
+
+
+## 2. Rust crates / Rust 套件
+
+The application also links open-source Rust crates (mostly MIT and/or Apache-2.0). The exact crate versions are pinned in the project's `Cargo.lock`; each crate is licensed under its own terms, available on [crates.io](https://crates.io). / 本軟體另連結多個開源 Rust 套件（多為 MIT 與／或 Apache-2.0），確切版本鎖定於專案 `Cargo.lock`，各套件依其原授權條款提供，授權全文可於 [crates.io](https://crates.io) 查閱。
